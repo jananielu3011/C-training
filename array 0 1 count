@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+
+{
+    int size,count1=0,count=0,index;
+    scanf("%d ",&size);
+    int arr[size];
+    for(index=0;index<size;index++)
+    scanf("%d",&arr[index]);
+    for(index=0;index<size;index++)
+    {
+        if(arr[index]==0)
+        count++;
+        else
+         count1++;
+      
+    }
+    printf("%d %d",count,count1);
+
+    return 0;
+}
+    
